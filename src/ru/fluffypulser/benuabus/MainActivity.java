@@ -36,26 +36,35 @@ public class MainActivity extends Activity {
 
         move(lv, d2);
 
-        final AdapterView.OnItemClickListener adaptee = new AdapterView.OnItemClickListener() {
+        final AdapterView.OnItemClickListener itemListener = new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getApplicationContext(), ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
+                //todo: schedule notification? "It's time to go home!"
             }
         };
-        lv.setOnItemClickListener(adaptee);
+        lv.setOnItemClickListener(itemListener);
 
         this.findViewById(R.id.cctglBtn).setOnClickListener(new View.OnClickListener() {
             public void onClick(final View view) {
-                lv.setAdapter(lv.getAdapter() == d1.getAdapter() ? d2.getAdapter() : d1.getAdapter());
-                move(lv, lv.getAdapter() == d1.getAdapter() ? d1 : d2);
+                lv.setAdapter(getInactiveProvider(lv, d1, d2).getAdapter());
+                move(lv, getActiveProvider(lv, d1, d2));
             }
         });
 
         this.findViewById(R.id.btnClk).setOnClickListener(new View.OnClickListener() {
             public void onClick(final View view) {
-                move(lv, lv.getAdapter() == d1.getAdapter() ? d1 : d2);
+                move(lv, getActiveProvider(lv, d1, d2));
             }
         });
 
+    }
+
+    private DataProvider getActiveProvider(final ListView lv, final DataProvider d1, final DataProvider d2) {
+        return lv.getAdapter() == d1.getAdapter() ? d1 : d2;
+    }
+
+    private DataProvider getInactiveProvider(final ListView lv, final DataProvider d1, final DataProvider d2) {
+        return lv.getAdapter() == d1.getAdapter() ? d2 : d1;
     }
 
     private void move(final ListView lv, final DataProvider provider) {
