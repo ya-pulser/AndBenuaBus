@@ -9,8 +9,8 @@ package ru.fluffypulser.benuabus;
 
 public final class R {
     public static final class array {
-        public static final int fromOffice=0x7f040000;
-        public static final int fromVokzal=0x7f040001;
+        public static final int fromOfficeNov2011=0x7f040000;
+        public static final int fromVokzalNov2011=0x7f040001;
     }
     public static final class attr {
     }
