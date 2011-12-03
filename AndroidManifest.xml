@@ -13,6 +13,9 @@
         </activity>
     </application>
     <supports-screens
+            android:largeScreens="true"
+            android:smallScreens="true"
+            android:normalScreens="true"
             android:resizeable="true"
             android:anyDensity="true"
             />
