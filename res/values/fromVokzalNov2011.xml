@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="fromVokzalNov2011">
-        <item>07:20 от вокзала</item>
-        <item>07:40 от вокзала</item>
+        <item>07:24 от вокзала</item>
+        <item>07:36 от вокзала</item>
+        <item>07:48 от вокзала</item>
         <item>08:00 от вокзала</item>
-        <item>08:10 от вокзала</item>
-        <item>08:20 от вокзала</item>
-        <item>08:30 от вокзала</item>
-        <item>08:40 от вокзала</item>
-        <item>08:50 от вокзала</item>
+        <item>08:12 от вокзала</item>
+        <item>08:24 от вокзала</item>
+        <item>08:36 от вокзала</item>
+        <item>08:48 от вокзала</item>
         <item>09:00 от вокзала</item>
-        <item>09:10 от вокзала</item>
-        <item>09:20 от вокзала</item>
-        <item>09:30 от вокзала</item>
-        <item>09:40 от вокзала</item>
-        <item>09:50 от вокзала</item>
+        <item>09:12 от вокзала</item>
+        <item>09:24 от вокзала</item>
+        <item>09:36 от вокзала</item>
+        <item>09:48 от вокзала</item>
         <item>10:00 от вокзала</item>
-        <item>10:10 от вокзала</item>
-        <item>10:20 от вокзала</item>
-        <item>10:30 от вокзала</item>
-        <item>10:40 от вокзала</item>
-        <item>10:50 от вокзала</item>
+        <item>10:12 от вокзала</item>
+        <item>10:24 от вокзала</item>
+        <item>10:36 от вокзала</item>
+        <item>10:48 от вокзала</item>
         <item>11:00 от вокзала</item>
-        <item>11:10 от вокзала</item>
-        <item>11:20 от вокзала</item>
-        <item>11:30 от вокзала</item>
-        <item>11:40 от вокзала</item>
-        <item>11:50 от вокзала</item>
+        <item>11:12 от вокзала</item>
+        <item>11:24 от вокзала</item>
+        <item>11:36 от вокзала</item>
+        <item>11:48 от вокзала</item>
         <item>12:00 от вокзала</item>
-        <item>12:10 от вокзала</item>
         <item>12:20 от вокзала</item>
-        <item>12:30 от вокзала</item>
         <item>12:40 от вокзала</item>
         <item>13:00 от вокзала</item>
         <item>13:20 от вокзала</item>
@@ -45,30 +40,27 @@
         <item>16:20 от вокзала</item>
         <item>16:40 от вокзала</item>
         <item>17:00 от вокзала</item>
-        <item>17:20 от вокзала</item>
-        <item>17:30 от вокзала</item>
-        <item>17:40 от вокзала</item>
-        <item>17:50 от вокзала</item>
+        <item>17:12 от вокзала</item>
+        <item>17:24 от вокзала</item>
+        <item>17:36 от вокзала</item>
+        <item>17:48 от вокзала</item>
         <item>18:00 от вокзала</item>
-        <item>18:10 от вокзала</item>
-        <item>18:20 от вокзала</item>
-        <item>18:30 от вокзала</item>
-        <item>18:40 от вокзала</item>
-        <item>18:50 от вокзала</item>
+        <item>18:12 от вокзала</item>
+        <item>18:24 от вокзала</item>
+        <item>18:36 от вокзала</item>
+        <item>18:48 от вокзала</item>
         <item>19:00 от вокзала</item>
-        <item>19:10 от вокзала</item>
-        <item>19:20 от вокзала</item>
-        <item>19:30 от вокзала</item>
-        <item>19:40 от вокзала</item>
-        <item>19:50 от вокзала</item>
+        <item>19:12 от вокзала</item>
+        <item>19:24 от вокзала</item>
+        <item>19:36 от вокзала</item>
+        <item>19:48 от вокзала</item>
         <item>20:00 от вокзала</item>
         <item>20:20 от вокзала</item>
         <item>20:40 от вокзала</item>
         <item>21:00 от вокзала</item>
         <item>21:20 от вокзала</item>
-        <item>21:40 от вокзала</item>
-        <item>22:20 от вокзала</item>
-        <item>23:00 от вокзала</item>
+        <item>22:00 от вокзала</item>
+        <item>22:40 от вокзала</item>
     </string-array>
 
 </resources>
