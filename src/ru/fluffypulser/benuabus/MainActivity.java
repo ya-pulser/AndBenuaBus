@@ -23,8 +23,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
 
         final Resources res = getResources();
-        final String[] toV = res.getStringArray(R.array.fromOfficeNov2011);
-        final String[] toO = res.getStringArray(R.array.fromVokzalNov2011);
+        final String[] toV = res.getStringArray(R.array.fromOffice201309);
+        final String[] toO = res.getStringArray(R.array.fromVokzal201309);
 
         final DataProvider d1 = new StaticDataProvider(toV, new ArrayAdapter<String>(this, R.layout.list_item, toV));
         final DataProvider d2 = new StaticDataProvider(toO, new ArrayAdapter<String>(this, R.layout.list_item, toO));
